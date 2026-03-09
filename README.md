@@ -2,7 +2,7 @@
 
 # Playwright Web Tests
 
-Suite simples de automação web com Playwright usando o SauceDemo como aplicação pública de referência.
+Suite de automação web com Playwright usando o SauceDemo como aplicação pública de referência.
 
 ## Tecnologias
 - Node.js
@@ -11,6 +11,13 @@ Suite simples de automação web com Playwright usando o SauceDemo como aplicaç
 
 ## Aplicação utilizada
 - https://www.saucedemo.com
+
+## Estrutura atual
+- Page Object Model
+- Suite smoke
+- Suite regression
+- Relatório HTML nativo do Playwright
+- Execução no GitHub Actions
 
 ## Cenários atuais
 - Login com sucesso
@@ -23,6 +30,12 @@ npx playwright install chromium
 
 ## Execução
 npx playwright test
+
+Rodar apenas smoke:
+npm run test:smoke
+
+Rodar apenas regression:
+npm run test:regression
 
 ## Relatório
 npx playwright show-report

@@ -1,9 +1,11 @@
 {
   "name": "playwright-web-tests",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Testes web com Playwright",
   "scripts": {
     "test": "playwright test",
+    "test:smoke": "playwright test tests/smoke",
+    "test:regression": "playwright test tests/regression",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "report": "playwright show-report"

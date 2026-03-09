@@ -28,8 +28,8 @@ jobs:
       - name: Instalar browser do Playwright
         run: npx playwright install chromium --with-deps
 
-      - name: Rodar testes
-        run: npx playwright test
+      - name: Rodar smoke
+        run: npm run test:smoke
 
       - name: Upload do relatório
         uses: actions/upload-artifact@v4
