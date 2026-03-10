@@ -25,11 +25,11 @@ jobs:
       - name: Instalar dependências
         run: npm ci
 
-      - name: Instalar browser do Playwright
-        run: npx playwright install chromium --with-deps
+      - name: Instalar browsers do Playwright
+        run: npx playwright install --with-deps
 
-      - name: Rodar smoke
-        run: npm run test:smoke
+      - name: Rodar testes
+        run: npx playwright test
 
       - name: Upload do relatório
         uses: actions/upload-artifact@v4

@@ -11,10 +11,12 @@
 - Page Object Model
 - Separação de suites (smoke / regression)
 
-## v1.2.0 (planejado)
-- Fixtures de dados
+## v1.2.0
+- Fixtures para dados de teste
 - Execução em múltiplos browsers
+- Ajuste do CI para executar em mais de um browser
 
 ## v1.3.0 (planejado)
-- Melhorias no relatório
+- Melhorias de relatório
 - Screenshot automático em falhas
+- Ajustes adicionais de estrutura

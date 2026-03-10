@@ -12,10 +12,15 @@ Suite de automação web com Playwright usando o SauceDemo como aplicação púb
 ## Aplicação utilizada
 - https://www.saucedemo.com
 
+## Versão atual
+v1.2.0
+
 ## Estrutura atual
 - Page Object Model
+- Fixtures para dados de teste
 - Suite smoke
 - Suite regression
+- Execução multi-browser
 - Relatório HTML nativo do Playwright
 - Execução no GitHub Actions
 
@@ -26,7 +31,7 @@ Suite de automação web com Playwright usando o SauceDemo como aplicação púb
 
 ## Instalação
 npm install
-npx playwright install chromium
+npx playwright install
 
 ## Execução
 npx playwright test
